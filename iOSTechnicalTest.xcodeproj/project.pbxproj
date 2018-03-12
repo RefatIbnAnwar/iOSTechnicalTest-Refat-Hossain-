@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E550AACA205671A70089FAFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550AAC9205671A70089FAFC /* AppDelegate.swift */; };
-		E550AACC205671A70089FAFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550AACB205671A70089FAFC /* ViewController.swift */; };
 		E550AACF205671A70089FAFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E550AACD205671A70089FAFC /* Main.storyboard */; };
 		E550AAD2205671A70089FAFC /* iOSTechnicalTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E550AAD0205671A70089FAFC /* iOSTechnicalTest.xcdatamodeld */; };
 		E550AAD4205671A70089FAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550AAD3205671A70089FAFC /* Assets.xcassets */; };
 		E550AAD7205671A70089FAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E550AAD5205671A70089FAFC /* LaunchScreen.storyboard */; };
 		E550AAE2205671A70089FAFC /* iOSTechnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550AAE1205671A70089FAFC /* iOSTechnicalTestTests.swift */; };
 		E550AAED205671A70089FAFC /* iOSTechnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550AAEC205671A70089FAFC /* iOSTechnicalTestUITests.swift */; };
+		E550AAFF205679D80089FAFC /* GallaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550AAFE205679D80089FAFC /* GallaryCollectionViewCell.swift */; };
+		E5DF745420567C730002D08B /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF745320567C730002D08B /* APICall.swift */; };
+		E5DF7456205685640002D08B /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF7455205685640002D08B /* ImageViewExtension.swift */; };
+		E5DF745820568B610002D08B /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF745720568B610002D08B /* GridViewController.swift */; };
+		E5DF745A20569F880002D08B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF745920569F880002D08B /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		E550AAC6205671A60089FAFC /* iOSTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E550AAC9205671A70089FAFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E550AACB205671A70089FAFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E550AACE205671A70089FAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E550AAD1205671A70089FAFC /* iOSTechnicalTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSTechnicalTest.xcdatamodel; sourceTree = "<group>"; };
 		E550AAD3205671A70089FAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		E550AAE8205671A70089FAFC /* iOSTechnicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTechnicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E550AAEC205671A70089FAFC /* iOSTechnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTechnicalTestUITests.swift; sourceTree = "<group>"; };
 		E550AAEE205671A70089FAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E550AAFE205679D80089FAFC /* GallaryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5DF745320567C730002D08B /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		E5DF7455205685640002D08B /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		E5DF745720568B610002D08B /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		E5DF745920569F880002D08B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				E550AAC9205671A70089FAFC /* AppDelegate.swift */,
-				E550AACB205671A70089FAFC /* ViewController.swift */,
+				E5DF745320567C730002D08B /* APICall.swift */,
+				E5DF745720568B610002D08B /* GridViewController.swift */,
+				E550AAFE205679D80089FAFC /* GallaryCollectionViewCell.swift */,
+				E5DF745920569F880002D08B /* ImageViewController.swift */,
+				E5DF7455205685640002D08B /* ImageViewExtension.swift */,
 				E550AACD205671A70089FAFC /* Main.storyboard */,
 				E550AAD3205671A70089FAFC /* Assets.xcassets */,
 				E550AAD5205671A70089FAFC /* LaunchScreen.storyboard */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E550AACC205671A70089FAFC /* ViewController.swift in Sources */,
 				E550AACA205671A70089FAFC /* AppDelegate.swift in Sources */,
+				E550AAFF205679D80089FAFC /* GallaryCollectionViewCell.swift in Sources */,
+				E5DF745420567C730002D08B /* APICall.swift in Sources */,
+				E5DF745A20569F880002D08B /* ImageViewController.swift in Sources */,
+				E5DF745820568B610002D08B /* GridViewController.swift in Sources */,
+				E5DF7456205685640002D08B /* ImageViewExtension.swift in Sources */,
 				E550AAD2205671A70089FAFC /* iOSTechnicalTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
